@@ -9,7 +9,6 @@ describe("Linked List Module", () => {
     expect(list.head).toBeNull();
   });
 });
-
 describe("Insert to the beginning of the linked list", () => {
   it("can insert a new node to the beginning of the linked list", () => {
     let list = new LinkedList();
@@ -17,7 +16,6 @@ describe("Insert to the beginning of the linked list", () => {
     expect(list.head.value).toEqual("test");
     expect(list.head.next).toBeNull();
   });
-
   it("can insert multiple nodes to the beginning of the linked list", () => {
     let list = new LinkedList();
     list.insert("test");
@@ -27,7 +25,6 @@ describe("Insert to the beginning of the linked list", () => {
     expect(list.head.next.next).toBeNull();
   });
 });
-
 describe("Append to the end of the linked list", () => {
   it("can append a new node to the end of the linked list", () => {
     let list = new LinkedList();
