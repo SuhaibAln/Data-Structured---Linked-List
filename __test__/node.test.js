@@ -1,6 +1,5 @@
 "use strict";
 const Node = require("../node.js");
-
 describe("Node Module", () => {
   it("can create a new node", () => {
     let value = "test";
